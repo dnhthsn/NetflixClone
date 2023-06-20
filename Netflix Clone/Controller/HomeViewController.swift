@@ -40,8 +40,8 @@ class HomeViewController: UIViewController {
     }
     
     private func configureNavbar() {
-        var image = UIImage(named: "logo")
-        image = image?.withRenderingMode(.alwaysOriginal)
+        let image = UIImage(named: "applogo")?.withRenderingMode(.alwaysOriginal).resizeTo(size: CGSize(width: 50, height: 50))
+        
         image?.draw(in: CGRect(x: 0, y: 0, width: 50, height: 50))
 
 //        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
