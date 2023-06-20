@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D69C50A2A414B8700CEFFFB /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69C5092A414B8700CEFFFB /* APICaller.swift */; };
+		2D69C50C2A4150D100CEFFFB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69C50B2A4150D100CEFFFB /* Movie.swift */; };
+		2D69C50E2A41548000CEFFFB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69C50D2A41548000CEFFFB /* Extensions.swift */; };
+		2D69C5102A4160A400CEFFFB /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D69C50F2A4160A400CEFFFB /* TV.swift */; };
 		2D74DE322A39AD5B001200AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74DE312A39AD5B001200AD /* AppDelegate.swift */; };
 		2D74DE342A39AD5B001200AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74DE332A39AD5B001200AD /* SceneDelegate.swift */; };
 		2D74DE362A39AD5B001200AD /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74DE352A39AD5B001200AD /* MainTabBarViewController.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D69C5092A414B8700CEFFFB /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		2D69C50B2A4150D100CEFFFB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2D69C50D2A41548000CEFFFB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2D69C50F2A4160A400CEFFFB /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
 		2D74DE2E2A39AD5B001200AD /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D74DE312A39AD5B001200AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D74DE332A39AD5B001200AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +120,8 @@
 		2D74DE502A39B863001200AD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2D69C50B2A4150D100CEFFFB /* Movie.swift */,
+				2D69C50F2A4160A400CEFFFB /* TV.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +129,7 @@
 		2D74DE512A39B87F001200AD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2D69C50D2A41548000CEFFFB /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +137,7 @@
 		2D74DE522A39B88D001200AD /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				2D69C5092A414B8700CEFFFB /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -201,13 +213,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D74DE4B2A39AF4C001200AD /* SearchViewController.swift in Sources */,
+				2D69C5102A4160A400CEFFFB /* TV.swift in Sources */,
 				2D74DE362A39AD5B001200AD /* MainTabBarViewController.swift in Sources */,
 				2D74DE542A39B8D1001200AD /* CollectionViewTableViewCell.swift in Sources */,
+				2D69C50A2A414B8700CEFFFB /* APICaller.swift in Sources */,
 				2D8A15B32A3AB1A800E7F781 /* HeroHeaderUIView.swift in Sources */,
 				2D74DE4D2A39AF6E001200AD /* DownloadsViewController.swift in Sources */,
 				2D74DE322A39AD5B001200AD /* AppDelegate.swift in Sources */,
+				2D69C50E2A41548000CEFFFB /* Extensions.swift in Sources */,
 				2D74DE342A39AD5B001200AD /* SceneDelegate.swift in Sources */,
 				2D74DE492A39AF31001200AD /* UpcomingViewController.swift in Sources */,
+				2D69C50C2A4150D100CEFFFB /* Movie.swift in Sources */,
 				2D74DE472A39AF09001200AD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
