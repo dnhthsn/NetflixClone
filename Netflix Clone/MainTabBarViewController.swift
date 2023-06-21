@@ -24,8 +24,8 @@ class MainTabBarViewController: UITabBarController {
         vc4.tabBarItem.image = UIImage(systemName: "arrow.down.to.line")
         
         vc1.title = "Home"
-        vc2.title = "Comming Soon"
-        vc3.title = "Top Search"
+        vc2.title = "Upcomming"
+        vc3.title = "Search"
         vc4.title = "Downloads"
         
         tabBar.tintColor = .label
